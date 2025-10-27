@@ -11,6 +11,7 @@ let rewardTxt = document.getElementById("rewardTxt");
 let rewardImg = document.getElementById("rewardImg");
 let interact = true;
 let clickable = true;
+let reward = document.getElementById("reward");
 
 container.onclick= function(){
    if(clickable==true){
@@ -35,7 +36,7 @@ function dialog(phase,width){
         switch(phase){
         case 1: 
             notif.style.bottom="290px";
-            chara.style.bottom="175px";
+            chara.style.bottom="199px";
             break;
         case 2:
             notif.style.bottom="290px";
@@ -53,11 +54,11 @@ function dialog(phase,width){
            break;
         case 7:
             notif.style.bottom="386px";
-            chara.style.bottom="194px";
+            chara.style.bottom="218px";
            break;    
         case 8:
-            notif.style.bottom="386px";
-            chara.style.bottom="212px";
+            notif.style.bottom="419px";
+            chara.style.bottom="257px";
            break;     
         } 
         }
@@ -67,14 +68,14 @@ function dialog(phase,width){
             
                 break;
             case 2:
-                document.getElementById("dialogTxt").innerText="The innkeeper has brought forth three treasures — the Wisdom of Scroll, the Troubadour Chant Record, and the Ancient Cube of Prism. (Click to continue)...";
+                document.getElementById("dialogTxt").innerText="The innkeeper has brought forth three treasures — the Wisdom of Scroll, the Elven Ocarina Record, and the Ancient Cube of Prism. (Click to continue)...";
                 break;
             case 3:
                 document.getElementById("dialogTxt").innerText="Let us begin with the first reward — the Wisdom of Scroll. It is bestowed only once a year to those deemed truly worthy. Within it lies insight and words of gratitude for one’s noble journey. (Click to continue)...";
                 interact=false;
                 break;
             case 5:
-                document.getElementById("dialogTxt").innerText="Next, the Troubadour Chant Record. This sacred melody, once sung by a great Elven Cleric, carries a gentle healing power. May its tune bring you comfort and strength throughout your path. (Click to continue)...";
+                document.getElementById("dialogTxt").innerText="Next, the Elven Ocarina Record. This sacred melody, once sung by a great Elven Cleric, carries a gentle healing power. May its tune bring you comfort and strength throughout your path. (Click to continue)...";
                 interact=false;
                 notif.style.visibility="hidden";
                 declineButton.style.visibility="hidden";
@@ -99,7 +100,7 @@ function dialog(phase,width){
                     notif.style.visibility="visible";
                     declineButton.style.visibility="visible";
                     acceptButton.style.visibility="visible";
-                    rewardImg.innerText="Img1"
+                    reward.src="Birthday20SourceImg/Icons/WisdomOfScroll.png";
                     rewardTxt.innerText="Wisdom of Scroll";
                     notif.style.backgroundColor;
                     clickable=false;
@@ -108,8 +109,8 @@ function dialog(phase,width){
                     notif.style.visibility="visible";
                     declineButton.style.visibility="visible";
                     acceptButton.style.visibility="visible";
-                    rewardImg.innerText="Img2"
-                    rewardTxt.innerText="Troubadour Chant Record";
+                    reward.src="Birthday20SourceImg/Icons/Ocarina.png";
+                    rewardTxt.innerText="Elvin Ocarina Record";
                     notif.style.backgroundColor;
                     clickable=false;
                     break;
@@ -117,7 +118,7 @@ function dialog(phase,width){
                     notif.style.visibility="visible";
                     declineButton.style.visibility="visible";
                     acceptButton.style.visibility="visible";
-                    rewardImg.innerText="Img3"
+                    reward.src="Birthday20SourceImg/Icons/Cube.png"
                     rewardTxt.innerText="Ancient Cube of Prism";
                     notif.style.backgroundColor;
                     clickable=false;
@@ -129,7 +130,7 @@ function dialog(phase,width){
                     notif.style.visibility="visible";
                     declineButton.style.visibility="visible";
                     acceptButton.style.visibility="visible";
-                    rewardImg.innerText="Img1"
+                    reward.src="Birthday20SourceImg/Icons/WisdomOfScroll.png";
                     rewardTxt.innerText="Wisdom of Scroll";
                     notif.style.backgroundColor;
                     clickable=false;
@@ -138,8 +139,8 @@ function dialog(phase,width){
                     notif.style.visibility="visible";
                     declineButton.style.visibility="visible";
                     acceptButton.style.visibility="visible";
-                    rewardImg.innerText="Img2"
-                    rewardTxt.innerText="Troubadour Chant Record";
+                    reward.src="Birthday20SourceImg/Icons/Ocarina.png";
+                    rewardTxt.innerText="Elven Ocarina Record";
                     notif.style.backgroundColor;
                     clickable=false;
                     break;
@@ -147,7 +148,7 @@ function dialog(phase,width){
                     notif.style.visibility="visible";
                     declineButton.style.visibility="visible";
                     acceptButton.style.visibility="visible";
-                    rewardImg.innerText="Img3"
+                    reward.src="Birthday20SourceImg/Icons/Cube.png"
                     rewardTxt.innerText="Ancient Cube of Prism";
                     notif.style.backgroundColor;
                     clickable=false;
