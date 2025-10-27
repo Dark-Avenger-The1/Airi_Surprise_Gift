@@ -1,7 +1,36 @@
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+button{
+    font-family:'Pixelify Sans';
+}
+
+
+
+.buttonHolder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 70px;
+    height: 70px;
+
+}
+
 .declineButton{
-    
+    border-radius: 5px;
+    padding: 5px 25px 5px;
+    background-color: red;
+    margin-right: 50px;
+   
 }
 
 .acceptButton{
-
+    border-radius: 5px;
+    padding: 5px 25px 5px;
+    background-color: green;
+    
 }

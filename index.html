@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href='https://fonts.googleapis.com/css?family=Pixelify Sans' rel='stylesheet'>
     <meta charset="UTF-8">
     <!-- Ensures the layout scales properly on mobile devices -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,27 +18,31 @@
 
             <!-- Notification box (can be used for messages or prompts) -->
             <div id="notif" class="notif">
-                <div id="rewardImg"></div>
+                <div class="rewardImg" id="rewardImg">
+                    <img src="" alt="">
+                </div>
                 <p id="rewardTxt"></p>
-                <div>
-                <button id="declineButton">Decline</button>
-                <button id="acceptButton"><a id="acceptButtonTxt" href="BirthdayLetter.html" target="_blank">Accept</a></button>
+                <div class="buttonHolder">
+                <button class="declineButton" id="declineButton">Decline</button>
+                <button class="acceptButton" id="acceptButton"><a id="acceptButtonTxt" href="BirthdayLetter.html" target="_blank">Accept</a></button>
 
                 </div>
                
             </div>
 
             <!-- Placeholder for character image or avatar -->
-            <div id="chara" class="charaImg"></div>    
-
-            <!-- Character name area (positioned above or near the image) -->
+            <div id="chara" class="charaImg">
+                <!-- Character name area (positioned above or near the image) -->
             <div id="name" class="charaName">
                 <p>Master Jasvriel</p>
             </div>
+            </div>    
+
+            
 
             <!-- Red box that serves as the text/dialog area -->
-            <div id="dialogTxt" class="dialog">
-                <p>Greetings, Commissioner from the Mortal Fate Guild. It’s an honor to finally meet you. We’ve heard much about your great deeds within your guild.
+            <div  class="dialog">
+                <p id="dialogTxt">Greetings, Commissioner from the Mortal Fate Guild. It’s an honor to finally meet you. We’ve heard much about your great deeds within your guild.
                     (Click to continue)...
                 </p>
             </div>
