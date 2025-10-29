@@ -36,29 +36,29 @@ function dialog(phase,width){
         switch(phase){
         case 1: 
             notif.style.bottom="290px";
-            chara.style.bottom="199px";
+            chara.style.bottom="219px";
             break;
         case 2:
             notif.style.bottom="290px";
-            chara.style.bottom="138px";
+            chara.style.bottom="161px";
              break;
         case 3:
-            notif.style.bottom="328px";
-            chara.style.bottom="157px";
+            notif.style.bottom="342px";
+            chara.style.bottom="180px";
             break;
         case 4:
             break;
         case 5:
-            notif.style.bottom="332px";
-            chara.style.bottom="157px";
+            notif.style.bottom="342px";
+            chara.style.bottom="180px";
            break;
         case 7:
             notif.style.bottom="386px";
-            chara.style.bottom="218px";
+            chara.style.bottom="237px";
            break;    
         case 8:
-            notif.style.bottom="419px";
-            chara.style.bottom="257px";
+            notif.style.bottom="455px";
+            chara.style.bottom="295px";
            break;     
         } 
         }
