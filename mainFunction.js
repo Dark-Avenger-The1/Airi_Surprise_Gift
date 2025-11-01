@@ -78,14 +78,10 @@ function dialog(phase,width){
                 document.getElementById("dialogTxt").innerText="Next, the Elven Ocarina Record. This sacred melody, once sung by a great Elven Cleric, carries a gentle healing power. May its tune bring you comfort and strength throughout your path. (Click to continue)...";
                 interact=false;
                 notif.style.visibility="hidden";
-                declineButton.style.visibility="hidden";
-                acceptButton.style.visibility="hidden";
                 break;
             case 7:
                 document.getElementById("dialogTxt").innerText="Lastly, the Ancient Cube of Prism. Within it rests an artifact imbued with the strength and wisdom of Aries. When attuned, it connects your soul to that of the Sixteenth Warrior Commander of Malacio — Aries, renowned for his unmatched valor and strategic brilliance in every battle. (Click to continue)...";
                 notif.style.visibility="hidden";
-                declineButton.style.visibility="hidden";
-                acceptButton.style.visibility="hidden";
                 break;
             case 8:
                 document.getElementById("dialogTxt").innerText="But heed my warning, Commissioner. Once you bond with the artifact, your soul becomes intertwined with Aries. With each passing year, the connection deepens — and your strength grows through understanding and harmony between your souls. Nurture this bond well, for true power arises not from might alone, but from the unity of hearts bound by destiny. (Click to continue)...";
@@ -98,8 +94,6 @@ function dialog(phase,width){
                 switch(phase){
                 case 4:
                     notif.style.visibility="visible";
-                    declineButton.style.visibility="visible";
-                    acceptButton.style.visibility="visible";
                     reward.src="Birthday20SourceImg/Icons/WisdomOfScroll.png";
                     rewardTxt.innerText="Wisdom of Scroll";
                     notif.style.backgroundColor;
@@ -107,8 +101,6 @@ function dialog(phase,width){
                     break;
                 case 6:
                     notif.style.visibility="visible";
-                    declineButton.style.visibility="visible";
-                    acceptButton.style.visibility="visible";
                     reward.src="Birthday20SourceImg/Icons/Ocarina.png";
                     rewardTxt.innerText="Elvin Ocarina Record";
                     notif.style.backgroundColor;
@@ -116,8 +108,6 @@ function dialog(phase,width){
                     break;
                 case 9:
                     notif.style.visibility="visible";
-                    declineButton.style.visibility="visible";
-                    acceptButton.style.visibility="visible";
                     reward.src="Birthday20SourceImg/Icons/Cube.png"
                     rewardTxt.innerText="Ancient Cube of Prism";
                     notif.style.backgroundColor;
@@ -128,27 +118,24 @@ function dialog(phase,width){
             switch(phase){
                 case 4:
                     notif.style.visibility="visible";
-                    declineButton.style.visibility="visible";
-                    acceptButton.style.visibility="visible";
                     reward.src="Birthday20SourceImg/Icons/WisdomOfScroll.png";
+                    acceptTxt.href="BirthdayLetter.html";
                     rewardTxt.innerText="Wisdom of Scroll";
                     notif.style.backgroundColor;
                     clickable=false;
                     break;
                 case 6:
                     notif.style.visibility="visible";
-                    declineButton.style.visibility="visible";
-                    acceptButton.style.visibility="visible";
                     reward.src="Birthday20SourceImg/Icons/Ocarina.png";
+                    acceptTxt.href="birthdaySong.html";
                     rewardTxt.innerText="Elven Ocarina Record";
                     notif.style.backgroundColor;
                     clickable=false;
                     break;
                 case 9:
                     notif.style.visibility="visible";
-                    declineButton.style.visibility="visible";
-                    acceptButton.style.visibility="visible";
                     reward.src="Birthday20SourceImg/Icons/Cube.png"
+                    acceptTxt.href="BirthdayGift.html";
                     rewardTxt.innerText="Ancient Cube of Prism";
                     notif.style.backgroundColor;
                     clickable=false;

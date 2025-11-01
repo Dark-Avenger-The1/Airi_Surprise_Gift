@@ -1,0 +1,48 @@
+.webContainer{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.containerTxt{
+    width: 450px;
+    position: absolute;
+    top: 90px;
+    left: 100px;
+}
+p{
+  font-family: 'Jacquard 12';
+  font-size: 25px;
+  color: brown;
+}
+.letterContainer{
+    position: relative;
+}
+.scroll{
+    position: relative;
+}
+
+
+@media only screen and (max-width:600px) {
+
+    .scroll{
+        width: 300px;
+        height: 400px;
+        
+    }
+
+    .letterContainer{
+        width: 300px;
+    }
+    .containerTxt{
+    width: 200px;
+    position: absolute;
+    top: 60px;
+    left: 55px;
+    }
+
+    p{
+        font-size: 15px;
+    }
+}
