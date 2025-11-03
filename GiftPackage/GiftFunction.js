@@ -6,7 +6,7 @@ cube.onclick = () =>{
         cube.src="Birthday20SourceImg/Icons/CubeAnimation.gif"
         setTimeout(()=>
         cube.src="Birthday20SourceImg/Icons/Cake.png"
-        ,1000);
+        ,1100);
         phase++;
     }
 };
