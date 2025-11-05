@@ -6,7 +6,9 @@
     justify-content: center;
 }
 
-
+body{
+    background-color: rgba(31, 140, 91, 0.821);
+}
 
 @media only screen and (max-width:600px) {
 
