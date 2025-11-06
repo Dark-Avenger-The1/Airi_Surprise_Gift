@@ -21,7 +21,7 @@ function scrollInteract(){
         setTimeout(()=>{
             headTxt.innerText="To the honorable Natiodies,";
             bodyTxt.innerText="This scroll is scribed and bestowed once a year to those who are deemed " +
-                        "worthy and receive the title \"Natiodies.\""+ " The kingdom praised thy existence. You should "+
+                        "worthy and receive the title \"Natiodies.\""+ " The kingdom praised thy existence. Thee should "+
                         "be blessed with prosperity and love. The presence of thy name calms the villagers since " +
                         "they are safe. Thou art loved by us, and we carried thee like our child. We always ask " +
                         "the Lord for your safe journey. Always be reminded wherever you go. The stars are always " +

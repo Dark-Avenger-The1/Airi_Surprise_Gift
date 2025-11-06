@@ -59,7 +59,9 @@ function dialog(phase,width){
         case 8:
             notif.style.bottom="455px";
             chara.style.bottom="295px";
-           break;     
+           break; 
+        case 10:
+            chara.style.bottom="160px";    
         } 
         }
         switch(phase){
@@ -86,7 +88,10 @@ function dialog(phase,width){
             case 8:
                 document.getElementById("dialogTxt").innerText="But heed my warning, Commissioner. Once you bond with the artifact, your soul becomes intertwined with Aries. With each passing year, the connection deepens — and your strength grows through understanding and harmony between your souls. Nurture this bond well, for true power arises not from might alone, but from the unity of hearts bound by destiny. (Click to continue)...";
                 interact=false;
-                break;    
+                break;  
+            case 10:
+                notif.style.visibility="hidden";
+                document.getElementById("dialogTxt").innerText="You had claimed all the three treasures, Commisioner. I hope you loved the gift gave by the innkeeper. Have a nice a trip in your journey and happy birthday, Airi.";  
             }  
  
         }else{
