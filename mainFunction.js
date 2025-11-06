@@ -12,6 +12,8 @@ let rewardImg = document.getElementById("rewardImg");
 let interact = true;
 let clickable = true;
 let reward = document.getElementById("reward");
+let reject = document.getElementById("reject");
+let declined =0;
 
 container.onclick= function(){
    if(clickable==true){
@@ -24,6 +26,8 @@ declineButton.onclick = function()
 {
     interact=true;
     clickable=true;
+    if(declined>1) reject.href="https://campuchiavd.github.io/vdff.mp4";
+    else declined++;
 }
 
 acceptButton.onclick=function(){
